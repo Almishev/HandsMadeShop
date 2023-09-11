@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paints.css">
+</head>
+<body>
+  <div id="totalBox">
+    <h4 style="font-family: 'Franklin Gothic Medium' font-size 17px">Your basket:</h4>
+          
+  </div>
+    <h1>Petq' Shop</h1>
+   
+    <nav>
+        <ul style="display: inline-flex;">
+            <a href="#"><li id="homes" onmousemove="goHome()">Home</li></a>
+            <a href="#"><li id="paintss" onmousemove="showPaints()">Paintings</li></a>
+            <a href="#"><li id="jewelrs" onmousemove="showJews()">Jewelrys</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="#"><li>Games</a>
+            <ul> 
+              <li> <a href="guess the number/index.html">Guessing number</a></li>
+              <li> <a href="Love-calculator/index.html">Love Calculator</a></li>
+              <li> <a href="Random Quote/index.html">Generate quote</a></li>
+             </ul>
+             </li>
+        </ul>
+    </nav>
+
+    <section class="items">
+        <div class="item">
+          <img src="paints/house.jpg" alt="Lemon Tree.">
+          <h4>Lemons- <span class="prices">19</span>$</h4>
+          <button onclick="buy(19)">Add To Bag</button>
+        </div>
+        <div class="item">
+            <img src="paints/big-lemon.jpg" alt="Small Lemons.">
+            <h4>Small Lemons- <span class="prices">16</span>$</h4>
+            <button onclick="buy(16)">Add To Bag</button>
+          </div>
+          <div class="item">
+            <img src="paints/girl.jpg" alt="Girl.">
+            <h4>Pink Girl - <span class="prices">40</span>$</h4>
+           
+            <button onclick="buy(40)">Add To Bag</button>
+          </div>
+          <div class="item">
+            <img src="paints/small-lemon.jpg" alt="Red pepers.">
+            <h4>Red pepers- <span class="prices">12</span>$</h4>
+           
+            <button onclick="buy(12)">Add To Bag</button>
+          </div>
+          <div class="item">
+            <img src="paints/tomato.jpg" alt="Small tomatoes.">
+            <h4>Small tomatoes-  <span class="prices">25$</span></h4>
+            <button onclick="buy(25)">Add To Bag</button>
+          </div>
+          <div class="item">
+            <img src="paints/pipers.jpg" alt="Village hous.">
+            <h4>Village house- <span class="prices">10</span>$</h4>
+            <button onclick="buy(10)">Add To Bag</button>
+          </div>
+    </section>
+
+    <div id="total"> Total : 0 $ 
+  
+    </div>
+    <button id="order" onclick="order()">Order</button>
+
+    <div id="formm">
+        <div class="row">
+          <label for="fname" class="labelrow">first name:</label>
+          <input type="text" id="fname" name="fname" placeholder="first name" required class="input-field"> 
+      </div>
+      <br/>
+      <div class="row">
+          <label for="lname" class="labelrow">last name:</label>
+          <input type="text" id="lname" name="lname" placeholder="last name" required class="input-field">
+      </div>
+      <br/>
+      <div class="row">
+          <label for="phone" class="labelrow">phone #:</label>
+          <input type="tel" id="phone" name="phone" placeholder="0888-88-8888" class="input-field">
+      </div>
+      <br/>
+      <button id="sb" onclick="end()">SUBMIT</button>
+    </div>
+
+    <section class="jews">
+      <div class="jew">
+        <img src="jewelrys/one.jpg" alt="Jewer One.">
+        <h4>Jewer One- <span class="prices">17</span>$</h4>
+        <button onclick="buy(17)">Add To Bag</button>
+      </div>
+      <div class="jew">
+          <img src="jewelrys/two.jpg" alt="Jewer Two.">
+          <h4>Jewer Two- <span class="prices">29</span>$</h4>
+          <button onclick="buy(29)">Add To Bag</button>
+        </div>
+        <div class="jew">
+          <img src="jewelrys/three.jpg" alt="Jewer Three.">
+          <h4>Jewer Three - <span class="prices">21</span>$</h4>
+         
+          <button onclick="buy(21)">Add To Bag</button>
+        </div>
+
+      
+  </section>
+     <div id="footer">
+        <h1> Petya's Home Made Paints and Jewelries - 0877382224. </h1>
+     </div>
+     
+    <script src="paints.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body{
+   background-color: rgb(76, 69, 69);
+  
+}
+h1{
+    font-family: "press Start 2P , sans-serif";
+    color: beige;
+    text-shadow: 1px 1px 2px black, 0 0 25px gold, 0 0 5px greenyellow;
+
+}
+
+h2{
+    font-family: "press Start 2P , sans-serif";
+   color: beige";
+}
+
+div{
+    font-size: 20px;
+    background-color: grey;
+    color:beige; 
+    text-align: center;
+    font-family: "consolas";
+    border-style:outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+ }
+
+ #guessField{
+    font-size: 20px;
+    background-color: rgb(189, 201, 205);
+    color:red;
+    cursor: pointer;
+    
+ }
+
+ #submitButton{
+    background-color: rgb(189, 201, 205);
+    color:red; 
+    font-size: 22px;
+    cursor: pointer;
+   
+ }
+
+ #time{
+   /*
+   background-color: lawngreen;
+   border-radius: 5px;
+   font-size: 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 3px;
+   margin: 3px;
+   */
+      border-style:outset;
+      border-width: 2px;
+      border-color: gold;
+      width: 250px;
+      height: 250px;
+      background: rgb(198, 103, 160);
+      font-size: 60px;
+      text-align: center;
+      animation: mySlide;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-play-state: running;
+      animation-delay: 0s;
+      animation-timing-function: ease-out;
+      
+ }
+
+ @keyframes mySlide{
+   from{margin-left: 100%;}
+   to{margin-left: 0%;}
+  }
+  
+
+ #btnPlay{
+   background-color: rgb(189, 201, 205);
+   color: aliceblue;
+   text-shadow: 1px 1px 2px black, 0 0 25px gold, 0 0 5px greenyellow;
+   font-size: 22px;
+   cursor: pointer;
+   
+}
+
+#pause{
+   background-color: rgb(189, 201, 205); 
+   color: aliceblue;
+   text-shadow: 1px 1px 2px black, 0 0 25px gold, 0 0 5px greenyellow;
+   font-size: 22px;
+   cursor: pointer;
+   margin-left: 10px;
+   margin-right: 10px;
+   
+}
+#resume{
+   background-color: rgb(189, 201, 205);
+   color: aliceblue;
+   text-shadow: 1px 1px 2px black, 0 0 25px gold, 0 0 5px greenyellow;
+   font-size: 22px;
+   cursor: pointer;
+   margin-left: 10px;
+   margin-right: 10px;
+   
+}
+#btnClose{
+   background-color: rgb(189, 201, 205);
+   color:rgb(34, 0, 255); 
+   font-size: 22px;
+   cursor: pointer;
+}
+
+
+@keyframes myColorChange{
+   0%{background-color: red;}
+   20%{background-color: orange;}
+   40%{background-color: yellow;}
+   60%{background-color: green;}
+   80%{background-color: blue;}
+   100%{background-color: purple;}
+  }
+
+  #divBtn{
+   height: 50px;
+    display: inline-flex;
+  }
+ 

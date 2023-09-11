@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+}
+
+#container{
+    background-color: skyblue;
+    border: 5px solid blueviolet;
+    height: 475px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: blueviolet;
+
+}
+
+#btn1{
+    margin: 20px auto;
+    height: 30px;
+    width: 250px;
+    font-size: 15px;
+    background-color: blueviolet;
+
+}
+#btn2{
+    margin: 20px auto;
+    height: 30px;
+    width: 250px;
+    font-size: 15px;
+    background-color: blueviolet;
+
+}
+
+#output{
+    font-size: 25px;
+    margin: 25px auto;
+    color: blueviolet;
+
+}

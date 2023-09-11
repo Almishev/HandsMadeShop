@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkCookie()">
+    <div id="head">
+    <h1>Number Guessing Game</h1>
+    <p>Pick a # between 1 - 100</p>
+    <label>Enter a guess</label>
+
+    <input id="guessField"> <br/> <br/> 
+    <input type="submit" id="submitButton">
+    <p> RESULT: <span id="answer"></span></p>
+    </div>
+
+    <footer>
+        <span id="time">1:10</span>
+    </footer>
+    <br/>
+    <div id="divBtn">
+    <button id="btnPlay" onclick="refresh()">Play Again</button>
+    <button id="pause">Pause</button>
+    <button id="resume">Resume</button>
+   </div>
+    
+    <!-- <button id="btnClose" onclick="window.close()">Close </button> -->
+    
+    <script src="index.js"></script>
+    <script src="cookie.js"></script>
+    <script src="timer.js"></script>
+
+</body>
+</html>
